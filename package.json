@@ -15,7 +15,7 @@
     "@effect/schema": "^0.17.2",
     "@hattip/adapter-node": "^0.0.33",
     "@hattip/core": "^0.0.33",
-    "effect-http": "^0.2.1"
+    "effect-http": "^0.3.0"
   },
   "devDependencies": {
     "@types/node": "^18.16.3",

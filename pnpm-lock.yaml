@@ -17,8 +17,8 @@ dependencies:
     specifier: ^0.0.33
     version: 0.0.33
   effect-http:
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^0.3.0
+    version: 0.3.0
 
 devDependencies:
   '@types/node':
@@ -393,8 +393,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
 
-  /effect-http@0.2.1:
-    resolution: {integrity: sha512-HP6t8WvcctnjWWx9cGkQKJgwGuFnDbu9/xdMpmdEk788t5bxjxYGmOMDbYDRrUVzqvEP5AkO1Xlz0BHeKYs43Q==}
+  /effect-http@0.3.0:
+    resolution: {integrity: sha512-0wuKzxxVDTTrGBuYYo9C/CL0Kf5oP9Dq1B+nyOo1yKyTKPPeGnKguVQh0ovmHqnwHg5UfOnV+EdrMwbYQmUqLg==}
     dependencies:
       '@effect/data': 0.12.2
       '@effect/io': 0.25.8
