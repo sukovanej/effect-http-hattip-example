@@ -42,15 +42,7 @@ export const hattip = (api: Http.Server<never, []>): HattipHandler => {
         body = await request.json();
       }
 
-      const handlerEffect = pipe(
-        handler.fn({ query, body, params, headers }),
-        Effect.provideService(
-          ValidationErrorFormatterService,
-          defaultValidationErrorFormatterServer
-        )
-      );
-
-      const response = await Effect.runPromise(handlerEffect);
+      const response = await Effect.runPromise(handler.fn({ query, body, params, headers }));
 
       return new Response(JSON.stringify(response.body), {
         status: response.statusCode,
